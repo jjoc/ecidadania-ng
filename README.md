@@ -30,7 +30,10 @@ If you need any help feel free to contact oscar.carballal@clione.io
 * Calendar: 0%
 * Theming system: 0%
 * 
-================================eCIDADANIA-DROP5.0-INTEGRATION-Prelude=============================
+=================eCIDADANIA-DROP5.0-INTEGRATION-Prelude===================
+[![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
+
+==========================================================================
 
 ![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
 
