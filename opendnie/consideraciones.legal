@@ -15,7 +15,7 @@ Deben estar claramente diferenciadas -incluso físicamente si es necesario- la p
 
 '''- Desarrollo:'''
 
-* Hay que tener en cuenta que la licencia obliga a un desarrollo que básicamente consiste en mezclar los repositorios
+* Hay que tener en cuenta que la licencia obliga a un desarrollo que básicamente consiste en mezclar repositorios
   de OpensC y Cenatic, hacer el desarrollo correspondiente, y subir los cambios solo y exclusivamente a Cenatic
 
 * Hasta la versión 0.11.x se podían compilar drivers como bibliotecas separadas; a partir de la versión 0.12.x 
