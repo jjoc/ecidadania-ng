@@ -1,4 +1,0 @@
-python-dateutil==1.7.4
-djangorestframework
-django-oauth-plus
-django-oauth2-provider
