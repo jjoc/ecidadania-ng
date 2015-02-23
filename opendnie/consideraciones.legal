@@ -2,19 +2,24 @@
 
 '''- Implicaciones legales:'''
 
-* Por parte de la DGP, su postura es muy clara en cuanto a tener el código como implementación de referencia, no necesariamente funcional
+* Por parte de la DGP, su postura es muy clara en cuanto a tener el código como implementación de referencia, 
+  no necesariamente funcional
 
-* Por parte de OpenSC, mientras no haya una implementación del DNIe LGPL funcional no ponen demasiados inconvenientes en que haya una versión GPL, siempre y cuando esté sincronizada y no se convierta en un fork
+* Por parte de OpenSC, mientras no haya implementación del DNIe LGPL funcional, no hay demasiados inconvenientes
+  en que haya una versión GPL, siempre y cuando esté sincronizada y no se convierta en un fork...
 
-* Es necesario tener en todo momento muy claro, qué es GPL, qué es LGPL, y llegado el caso poder diferenciar claramente ambas partes de código
+* Es necesario tener muy claro, qué es GPL, qué es LGPL, y llegado el caso diferenciar ambas partes de código
 
-De estas consideraciones se debe deducir la estructura del repositorio se escoja: Deben estar claramente diferenciadas -incluso físicamente si es necesario- la parte OpenSC de la parte DNIe.
+De estas consideraciones se debe deducir la estructura del repositorio se escoja: 
+Deben estar claramente diferenciadas -incluso físicamente si es necesario- la parte OpenSC de la parte DNIe.
 
 '''- Desarrollo:'''
 
-* Hay que tener en cuenta que la licencia obliga a un desarrollo que básicamente consiste en mezclar los repositorios de OpensC y Cenatic, hacer el desarrollo correspondiente, y subir los cambios solo y exclusivamente a Cenatic
+* Hay que tener en cuenta que la licencia obliga a un desarrollo que básicamente consiste en mezclar los repositorios
+  de OpensC y Cenatic, hacer el desarrollo correspondiente, y subir los cambios solo y exclusivamente a Cenatic
 
-* Hasta la versión 0.11.x se podían compilar drivers como bibliotecas separadas; a partir de la versión 0.12.x la compilación separada no es posible (no existe el paquete "-devel") por lo que no hay opción (salvo cambios estructurales al OpenSC original) a compilar un driver DNIe que se carge dinámicamente. 
+* Hasta la versión 0.11.x se podían compilar drivers como bibliotecas separadas; a partir de la versión 0.12.x 
+  Compilación separada no es posible (no existe el paquete "-devel") no hay opción (salvo cambios estructurales al OpenSC original) a compilar un driver DNIe que se carge dinámicamente. 
 
 * El requisito de sincronización con OpenSC implica que no se pueden incluir parches a la parte de OpenSC que impidan su compatibilidad con el mainstream.
 El parche actual solo contiene código para enlazar OpenSC con el driver DNIe y para permitir su compilación. Dicho parche debe ser lo menos invasivo posible
