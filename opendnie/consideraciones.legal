@@ -1,0 +1,112 @@
+== Consideraciones respecto del driver GPL ==
+
+'''- Implicaciones legales:'''
+
+* Por parte de la DGP, su postura es muy clara en cuanto a tener el código como implementación de referencia, no necesariamente funcional
+
+* Por parte de OpenSC, mientras no haya una implementación del DNIe LGPL funcional no ponen demasiados inconvenientes en que haya una versión GPL, siempre y cuando esté sincronizada y no se convierta en un fork
+
+* Es necesario tener en todo momento muy claro, qué es GPL, qué es LGPL, y llegado el caso poder diferenciar claramente ambas partes de código
+
+De estas consideraciones se debe deducir la estructura del repositorio se escoja: Deben estar claramente diferenciadas -incluso físicamente si es necesario- la parte OpenSC de la parte DNIe.
+
+'''- Desarrollo:'''
+
+* Hay que tener en cuenta que la licencia obliga a un desarrollo que básicamente consiste en mezclar los repositorios de OpensC y Cenatic, hacer el desarrollo correspondiente, y subir los cambios solo y exclusivamente a Cenatic
+
+* Hasta la versión 0.11.x se podían compilar drivers como bibliotecas separadas; a partir de la versión 0.12.x la compilación separada no es posible (no existe el paquete "-devel") por lo que no hay opción (salvo cambios estructurales al OpenSC original) a compilar un driver DNIe que se carge dinámicamente. 
+
+* El requisito de sincronización con OpenSC implica que no se pueden incluir parches a la parte de OpenSC que impidan su compatibilidad con el mainstream.
+El parche actual solo contiene código para enlazar OpenSC con el driver DNIe y para permitir su compilación. Dicho parche debe ser lo menos invasivo posible
+
+* Si en algún momento hiciera falta un cambio estructural al fuente original de OpenSC, este debe ser enviado al equipo de OpenSC, y esperar por su aprobación e inclusión en el mainstream. No debe haber nada que parezca remotamente un fork
+
+* La política de OpenSC respecto al contenido de los repositorios es que no deben contener ningún fichero que pueda ser regenerado automáticamente. De ahí el comando "bootstrap" que tanto extraña a la gente... Yo personalmente estoy de acuerdo con dicha política: el repositorio queda mucho más claro y no contiene datos redundantes y/o que puedan inducir a error
+
+
+'''PROPUESTA:'''
+
+
+----
+'''Organización del repositorio'''
+
+* Nombre del paquete: OpenSC-DNIe
+
+* Dado que parece que los usuarios tienen problemas al compilar mezclando varias piezas de código, entiendo que lo más cómodo (aunque no para los desarrolladores) es que el repositorio contenga un simple arbol, al estilo del trunk de OpenSC, de manera que para 
+instalar baste con el conjuro:
+''"svn update; cd opensc-dnie-svntrunk; ./bootstrap; configure; make; make install "''
+
+* Los datos de empaquetamiento se añadirían en carpetas separadas "fedora","debian", etc, dentro del repositorio.
+
+* Respecto a ésto quiero hacer notar que la política de OpenSC ( y de otros muchos proyectos ) es que los ficheros asociados al empaquetamiento NO deben formar parte del desarrollo, dado lo problemático que es el mantener tantos datos asociados a tantas distribuciones distintas. No obstante, creo que en este caso se puede hacer una excepción, siempre y cuando quede claramente separado lo que es desarrollo y lo que es empaquetamiento
+
+* Según ésto: ejecutar "make maintainer-clean" debe dejar el directorio de trabajo con el mismo contenido que el repositorio SVN
+
+* El repositorio se organizaría de la siguiente forma:
+dgp-static
+  (codigo fuente de la DGPGC)
+
+opensc-dnie-releases
+  - opensc-dnie-0.11.12
+  - opensc-dnie-0.11.13
+  - opensc-dnie-0.12.0 ( cuando sea pública)
+  - .....
+
+opensc-dnie-trunk
+  - ( arbol de directorio sincronizado con la rama de desarrollo de OpensC )
+
+opensc-opendnie-releases
+  - opensc-opendnie-0.12.x ( no habrá rama 0.11.x)
+  - ....
+opensc-opendnie-trunk
+  - ( arboles de desarrollo de la rama LGPL)
+
+Otros (por definir)
+
+* Todas las ramas "release" son estáticas: solo deben reflejar correcciones a bugs del driver DNIe
+
+
+----
+'''Página de descargas'''
+
+* En la página de descargas habría al menos tres paquetes:
+  - DGP Sources
+  - OpenSC-DNIe
+    - 0.11.12
+      ( para cada version)
+      - paquete src.tar.gz (obligatorio)
+      - paquetes .deb, .src.rpm, .rpm (opcionales)
+    - 0.11.13
+    - 0.12.0
+    - svntrunk
+      (solo contiene un "svn daily snapshot" en formato "src.tgz")
+  - OpenSC-OpenDNIe
+      (pendiente de desarrollo :-)
+  - Otros (por definir)
+
+* Los paquetes src.tgz se generan a partir de  
+"svn checkout; cd opensc-dnie-xxxx; ./bootstrap; configure; make dist"
+
+* Para los paquetes de las distintas distribuciones, en el directorio correspondiente se deberán incluír las instrucciones/scripts necesarios para poder generarlos
+
+* No se puede publicar ningún paquete (fuente o binario) que no haya pasado por las validaciones:
+- Descarga, compila, e instala sin problemas
+
+- Pasa el test de la página web de la DGP (autenticación y firma)
+
+- Firma con éxito un documento con OpenOffice
+
+== Consideraciones respecto del driver LGPL ==
+
+* Nombre del paquete OpenSC-OpenDNIe
+
+* Básicamente se ponen los mismos requerimientos, con la salvedad de que la licencia es LGPL, lo que nos permite mayor libertad a la hora de mezclar el código. En cualquier caso los criterios de "mínima invasividad" se deben mantener.
+
+De hecho, el código publicado ha sido calificado por la gente de OpenSC como
+'' "the less intrussive way I've ever seen to implement SM in a card driver" :-)''
+
+* Solo hay un requisito para este driver: PROHIBIDO TERMINANTEMENTE COPIAR una sola línea de código del driver GPL, salvo que se pueda demostrar que dicha línea no proviene del código liberado por la DGP
+
+* Del mismo modo, el código deberá estar lo más documentado posible, indicando en todo momento las fuentes del código y/o documentación. Cualquier dato que tenga que ser extraído del driver original de la DGP porque no hay documentación alternativa, debe ser autorizado, y consensuada su publicación por todas las partes implicadas (incluída la DGP)
+
+* El objetivo del driver LGPL es su '''INTEGRACION''' en el mainstream de OpenSC. Una vez desarrollado e integrado en dicho mainstream, no se llevará a cabo ninguna otra publicación separada, salvo la requerida para mantenimiento y/o pruebas previas a su commit a OpenSC. En este caso, el repositorio será un simple "mirror" del oficial de OpenSC
