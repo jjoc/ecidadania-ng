@@ -31,15 +31,14 @@ If you need any help feel free to contact oscar.carballal@clione.io
 * Theming system: 0%
 * 
 =================eCIDADANIA-DROP5.0-INTEGRATION-Prelude===================
-[![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
-
 ==========================================================================
+[![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
+[![GitHub version](https://badge.fury.io/gh/django%2Fdjango.svg)](http://badge.fury.io/gh/django%2Fdjango)
 
 ![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
 
 
-    Synapse Constructors 4A e-Cidadania's OneClick Deployement
-
+ 
 ![](http://i.imgur.com/BeE14Bl.png)
 ![](http://i.imgur.com/5ldxDJl.png)
 [![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
