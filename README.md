@@ -28,14 +28,7 @@ If you need any help feel free to contact oscar.carballal@clione.io
 
 ![](http://citizenship.es/eCidadania-NG/GitHub212Febrero.png)
 
-=================eCIDADANIA-DROP5.0-INTEGRATION-Prelude===================
-=========================================================================
 
-
-
-
-
- 
 ![](http://i.imgur.com/BeE14Bl.png)
 ![](http://i.imgur.com/5ldxDJl.png)
 [![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
@@ -52,7 +45,7 @@ If you need any help feel free to contact oscar.carballal@clione.io
 
 
 
-![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
+![](http://www.aitishnik.ru/images/news/debian-logo-pinc.png)**Installing dependencies in OS Debian 7.8 (64b)**
 
 
     *(X) apt-get update
