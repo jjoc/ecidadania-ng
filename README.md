@@ -46,7 +46,7 @@ Thanks and sorry for the inconvenience.
 
 Don't forget .... It's DevOps's Zone (Highly Flammable bits, here, are Free) 
 
-## Status
+## Status 0.2.0 alpha
 
 ![](http://citizenship.es/eCidadania-NG/GitHub400x300Febrero.png)
 [![eCidadania-NG-DNIe](http://citizenship.es/eCidadania-NG/eCidadania-NG-400x300-YouTube2015.png)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
