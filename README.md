@@ -19,10 +19,10 @@ ecidadania objective is to provide a way to make a full participation
 process on internet, or even use it as a complement to in person participative
 processes.
 
-We don't have any documentation in place yet because we're adapting the whole
-source code to the new codebase, and it will take a while.
+We don't have any documentation in place yet because we're adapting the whole source code to the new codebase, and it will take a while. 
+If you want to participate in this exciting project , or you need any help, send your CV or contact: oscar.carballal@clione.io
 
-If you need any help feel free to contact oscar.carballal@clione.io
+
 
 ## Status
 
