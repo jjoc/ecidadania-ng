@@ -17,9 +17,7 @@ usable by associations, companies and administrations.
 
 eCidadania objective is to provide a way to make a full participation
 process on internet, or even use it as a complement to in person participative
-processes.
-
-Perhaps isnt the ultimate solution , but certainly its the essential step towards the common goal of a real participatory democracy.
+processes.Perhaps isnt the ultimate solution , but certainly its the essential step towards the common goal of a real participatory democracy.
 
 We don't have any documentation in place yet because we're adapting the whole source code to the new codebase, and it will take a while. 
 
