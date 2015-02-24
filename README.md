@@ -17,9 +17,7 @@ usable by associations, companies and administrations. Stable releases of projec
 
 eCidadania objective is to provide a way to make a full participation
 process on internet, or even use it as a complement to in person participative
-processes.Perhaps isnt the ultimate solution , but certainly its the essential step towards the common goal of a real participatory democracy.
-
-We don't have any documentation in place yet because we're adapting the whole source code to the new codebase, and it will take a while. 
+processes.Perhaps isnt the ultimate solution , but certainly its the essential step towards the common goal of a real participatory democracy. Documentation coming soon we're Adapting the whole source code to the new codebase. Thanx.
 
 If you want to participate in this exciting project , or you need any help, send your CV or contact: oscar.carballal@clione.io
 
