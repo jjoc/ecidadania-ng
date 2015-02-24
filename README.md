@@ -13,7 +13,7 @@
 eCidadania-ng (ecidadania new generation) is a project to develop an up to date
 version of the well known open source application for citizen participation,
 ecidadania which can be used for debates, proposals, trusted voting,
-usable by associations, companies and administrations.
+usable by associations, companies and administrations. You can find the stable releases of the project on our website or the official forge CENATIC;)
 
 eCidadania objective is to provide a way to make a full participation
 process on internet, or even use it as a complement to in person participative
