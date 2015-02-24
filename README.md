@@ -3,7 +3,7 @@
 [![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
 [![GitHub version](https://badge.fury.io/gh/django%2Fdjango.svg)](http://badge.fury.io/gh/django%2Fdjango)
 
-![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](http://citizenship.es/eCidadania-NG/OCP2015USB99e.png)
+![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](http://citizenship.es/eCidadania-NG/OCP2015USB81e.png)
 
 * Current version: 0.2.0 alpha
 * Django version: 1.7.4
