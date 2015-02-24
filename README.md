@@ -56,9 +56,7 @@ If you need any help feel free to contact oscar.carballal@clione.io
 
     (X) adduser <userName>
     (X) adduser <userName> sudo
-    (X) visudo 
-      # User privilege specification
-        <userName> ALL=(ALL:ALL) ALL
+   
 
 
 ![](http://wiki.team-mediaportal.com/@api/deki/files/1523/=alert_icon.png) **[PreRequisites]** 
