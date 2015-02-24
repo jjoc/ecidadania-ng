@@ -10,16 +10,19 @@
 * Python version: 3.4.x
 
 
-ecidadania-ng (ecidadania new generation) is a project to develop an up to date
+eCidadania-ng (ecidadania new generation) is a project to develop an up to date
 version of the well known open source application for citizen participation,
 ecidadania which can be used for debates, proposals, trusted voting,
 usable by associations, companies and administrations.
 
-ecidadania objective is to provide a way to make a full participation
+eCidadania objective is to provide a way to make a full participation
 process on internet, or even use it as a complement to in person participative
 processes.
 
+Perhaps isnt the ultimate solution , but certainly its the essential step towards the common goal of a real participatory democracy.
+
 We don't have any documentation in place yet because we're adapting the whole source code to the new codebase, and it will take a while. 
+
 If you want to participate in this exciting project , or you need any help, send your CV or contact: oscar.carballal@clione.io
 
 
