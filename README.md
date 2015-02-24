@@ -19,7 +19,7 @@ eCidadania objective is to provide a way to make a full participation
 process on internet, or even use it as a complement to in person participative
 processes.Perhaps isnt the ultimate solution , but certainly its the essential step towards the common goal of a real participatory democracy. Documentation coming soon, we're adapting it all to the new codebase. 
 
-Thanks and sorry for the inconvenience. Don't forget: It's DevOps Area (highly flammable bits are free) 
+Thanks and sorry for the inconvenience. But Don't forget... It's DevOps's Area (Highly Flammable bits are Free) 
 
 If you want to participate in this exciting project , or you need any help, send your CV or contact: oscar.carballal@clione.io
 
