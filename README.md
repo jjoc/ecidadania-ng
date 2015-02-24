@@ -53,6 +53,8 @@ cidadania/ecidadania-ng
 [gemnasium]: https://gemnasium.com/intridea/omniauth
 [coveralls]: https://coveralls.io/r/intridea/omniauth
 
+![](http://www.codigner.com/wp-content/uploads/codigner_barra.png)
+
 
 
 ![](http://doc.ubuntu-es.org/images/a/ae/Oil-logo-ubuntu.png)**Installing dependencies in OS Ubuntu 12.04 (32b)**
