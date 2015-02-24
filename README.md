@@ -43,7 +43,7 @@ If you want to participate in this exciting project , or you need any help, send
 [coveralls]: https://coveralls.io/r/intridea/omniauth
 
 
-
+[![eCidadania-NG-DNIe](http://img.youtube.com/vi/T-kbRd_hjWCGc/0.jpg)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
 
 
 ![](http://www.aitishnik.ru/images/news/debian-logo-pinc.png)**Installing dependencies in OS Debian 7.8 (64b)**
