@@ -33,7 +33,8 @@ If you want to participate in this exciting project , or need any help, send CV 
 
 
 
-Thanks and sorry for the inconvenience. But Don't forget .... It's DevOps's Area (Highly Flammable bits, here, are Free) 
+Thanks and sorry for the inconvenience. 
+But Don't forget .... It's DevOps's Zone (Highly Flammable bits, here, are Free) 
 
 ## Status
 
