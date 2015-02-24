@@ -27,7 +27,7 @@ processes.Perhaps isnt the ultimate solution , but certainly its the essential s
 
 Thanks and sorry for the inconvenience. But Don't forget .... It's DevOps's Area (Highly Flammable bits are Free) 
 
-If you want to participate in this exciting project , or you need any help, send your CV or contact: oscar.carballal@clione.io
+If you want to participate in this exciting project , or need any help, send CV or contact: oscar.carballal@clione.io
 
 
 
