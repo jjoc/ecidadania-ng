@@ -4,9 +4,6 @@
 
 [![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
 [![GitHub version](https://badge.fury.io/gh/django%2Fdjango.svg)](http://badge.fury.io/gh/django%2Fdjango)
-
-![](http://i.imgur.com/BeE14Bl.png)
-![](http://i.imgur.com/5ldxDJl.png)
 [![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
 [![Dependency Status](https://gemnasium.com/intridea/omniauth.png?travis)][gemnasium]
 [![Coverage Status](https://coveralls.io/repos/intridea/omniauth/badge.png?branch=master)][coveralls]
