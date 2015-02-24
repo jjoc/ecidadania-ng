@@ -53,7 +53,7 @@ Don't forget .... It's DevOps's Zone (Highly Flammable bits, here, are Free)
 
 
  
-![](http://kclocalmarketing.com/wp-content/uploads/2010/12/Collaborate.png) Collaborate
+![](http://kclocalmarketing.com/wp-content/uploads/2010/12/Collaborate.png) Collaboration Areas
 -----------
 
 * **Developing** You can take the last code from the repository and experiment with it. When you're done, you can send us a "Merge request". Please check the `How To Contribute page: http://code.ecidadania.org/wiki/HowToContribute
