@@ -21,15 +21,8 @@ If you need any help feel free to contact oscar.carballal@clione.io
 
 ## Status
 
-* Row-level permissions: 100%
-* Accounts system: 60% (now managed by allauth)
-* Spaces management: 0%
-* Debates system: 0%
-* Voting system: 0%
-* News system: 0%
-* Calendar: 0%
-* Theming system: 0%
-* 
+![](http://citizenship.es/eCidadania-NG/GitHub212Febrero.png)
+
 =================eCIDADANIA-DROP5.0-INTEGRATION-Prelude===================
 =========================================================================
 
@@ -53,7 +46,7 @@ cidadania/ecidadania-ng
 [gemnasium]: https://gemnasium.com/intridea/omniauth
 [coveralls]: https://coveralls.io/r/intridea/omniauth
 
-![](http://www.codigner.com/wp-content/uploads/codigner_barra.png)
+
 
 
 
