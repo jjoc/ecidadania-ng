@@ -27,8 +27,7 @@ If you want to participate in this exciting project , or you need any help, send
 
 ## Status
 
-![](http://citizenship.es/eCidadania-NG/GitHub480Febrero.png)
-
+![](http://citizenship.es/eCidadania-NG/GitHub212Febrero.png)
 [![eCidadania-NG-DNIe](http://citizenship.es/eCidadania-NG/DROP-YouTube2015.png)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
 
 ![](http://i.imgur.com/BeE14Bl.png)
