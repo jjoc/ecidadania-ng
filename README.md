@@ -29,6 +29,7 @@ If you want to participate in this exciting project , or you need any help, send
 
 ![](http://citizenship.es/eCidadania-NG/GitHub212Febrero.png)
 
+[![eCidadania-NG-DNIe](http://citizenship.es/eCidadania-NG/eCidadania-NG-YouTube2015.png)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
 
 ![](http://i.imgur.com/BeE14Bl.png)
 ![](http://i.imgur.com/5ldxDJl.png)
@@ -41,9 +42,6 @@ If you want to participate in this exciting project , or you need any help, send
 [travis]: http://travis-ci.org/intridea/omniauth
 [gemnasium]: https://gemnasium.com/intridea/omniauth
 [coveralls]: https://coveralls.io/r/intridea/omniauth
-
-
-[![eCidadania-NG-DNIe](http://citizenship.es/eCidadania-NG/eCidadania-NG-YouTube2015.png)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
 
 
 ![](http://www.aitishnik.ru/images/news/debian-logo-pinc.png)**Installing dependencies in OS Debian 7.8 (64b)**
