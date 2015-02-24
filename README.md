@@ -1,13 +1,22 @@
 # ecidadania-ng
 
+![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](http://citizenship.es/eCidadania-NG/OCP2015USB81e.png)
+
 [![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
 [![GitHub version](https://badge.fury.io/gh/django%2Fdjango.svg)](http://badge.fury.io/gh/django%2Fdjango)
 
-![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](http://citizenship.es/eCidadania-NG/OCP2015USB81e.png)
+![](http://i.imgur.com/BeE14Bl.png)
+![](http://i.imgur.com/5ldxDJl.png)
+[![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
+[![Dependency Status](https://gemnasium.com/intridea/omniauth.png?travis)][gemnasium]
+[![Coverage Status](https://coveralls.io/repos/intridea/omniauth/badge.png?branch=master)][coveralls]
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/intridea/omniauth/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-* Current version: 0.2.0 alpha
-* Django version: 1.7.4
-* Python version: 3.4.x
+[gem]: https://rubygems.org/gems/omniauth
+[travis]: http://travis-ci.org/intridea/omniauth
+[gemnasium]: https://gemnasium.com/intridea/omniauth
+[coveralls]: https://coveralls.io/r/intridea/omniauth
+
 
 
 eCidadania-ng (ecidadania new generation) is a project to develop an up to date
@@ -30,17 +39,6 @@ If you want to participate in this exciting project , or you need any help, send
 ![](http://citizenship.es/eCidadania-NG/GitHub400x300Febrero.png)
 [![eCidadania-NG-DNIe](http://citizenship.es/eCidadania-NG/eCidadania-NG-400x300-YouTube2015.png)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
 
-![](http://i.imgur.com/BeE14Bl.png)
-![](http://i.imgur.com/5ldxDJl.png)
-[![CI Build Status](https://secure.travis-ci.org/intridea/omniauth.png?branch=master)][travis]
-[![Dependency Status](https://gemnasium.com/intridea/omniauth.png?travis)][gemnasium]
-[![Coverage Status](https://coveralls.io/repos/intridea/omniauth/badge.png?branch=master)][coveralls]
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/intridea/omniauth/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-[gem]: https://rubygems.org/gems/omniauth
-[travis]: http://travis-ci.org/intridea/omniauth
-[gemnasium]: https://gemnasium.com/intridea/omniauth
-[coveralls]: https://coveralls.io/r/intridea/omniauth
 
 
 ![](http://www.aitishnik.ru/images/news/debian-logo-pinc.png)**Installing dependencies in OS Debian 7.8 (64b)**
