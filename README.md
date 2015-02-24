@@ -18,6 +18,9 @@
 
 
 
+
+
+
 eCidadania-ng (ecidadania new generation) is a project to develop an up to date
 version of the well known open source application for citizen participation,
 ecidadania which can be used for debates, proposals, trusted voting,
@@ -29,11 +32,18 @@ processes.Perhaps isnt the ultimate solution , but certainly its the essential s
 
 
 
+
+
+
 If you want to participate in this exciting project , or need any help, send CV or contact us: oscar.carballal@clione.io
 
 
 
+
+
+
 Thanks and sorry for the inconvenience. 
+
 But Don't forget .... It's DevOps's Zone (Highly Flammable bits, here, are Free) 
 
 ## Status
