@@ -44,13 +44,25 @@ If you want to participate in this exciting project , or need any help, send CV 
 
 Thanks and sorry for the inconvenience. 
 
-But Don't forget .... It's DevOps's Zone (Highly Flammable bits, here, are Free) 
+Don't forget .... It's DevOps's Zone (Highly Flammable bits, here, are Free) 
 
 ## Status
 
 ![](http://citizenship.es/eCidadania-NG/GitHub400x300Febrero.png)
 [![eCidadania-NG-DNIe](http://citizenship.es/eCidadania-NG/eCidadania-NG-400x300-YouTube2015.png)](https://www.youtube.com/watch?v=kbRd_hjWCGc)
 
+
+ 
+![](http://kclocalmarketing.com/wp-content/uploads/2010/12/Collaborate.png) Collaborate
+-----------
+
+* **Developing** You can take the last code from the repository and experiment with it. When you're done, you can send us a "Merge request". Please check the `How To Contribute page: http://code.ecidadania.org/wiki/HowToContribute
+
+* **Documenting** Right now the documentation is a bit insufficient. If you want to document e-cidadania, feel free to do it. We use Sphinx (1.1.3) to generate the documents.
+
+* **Translating**  You can contribute translating e-cidadania from its page on `Transifex http://www.transifex.net/projects/p/ecidadania/ _. If you need a language that is not available, ask for it from Transifex and we will create it ASAP.
+
+* **Bug reporting** You can report the bugs you find in the application in this trac: http://code.ecidadania.org
 
 
 ![](http://www.aitishnik.ru/images/news/debian-logo-pinc.png)**Installing dependencies in OS Debian 7.8 (64b)**
@@ -329,15 +341,5 @@ Development and bugtracking is done through `code.ecidadania.org http://code.eci
 
  * `Design concepts http://code.ecidadania.org/wiki/DesignConcepts _ design concepts, this are the guides to follow when developing.
  * `Releases http://code.ecidadania.org/wiki/Releases _ version roadmap. This is where we stablish the features, release dates and other things of every version.
- 
-![](http://kclocalmarketing.com/wp-content/uploads/2010/12/Collaborate.png) Collaborate
------------
 
-* **Developing** You can take the last code from the repository and experiment with it. When you're done, you can send us a "Merge request". Please check the `How To Contribute http://code.ecidadania.org/wiki/HowToContribute _ page.
-
-* **Documenting** Right now the documentation is a bit insufficient. If you want to document e-cidadania, feel free to do it. We use Sphinx (1.1.3) to generate the documents.
-
-* **Translating**  You can contribute translating e-cidadania from its page on `Transifex http://www.transifex.net/projects/p/ecidadania/ _. If you need a language that is not available, ask for it from Transifex and we will create it ASAP.
-
-* **Bug reporting** You can report the bugs you find in the application in this trac: http://code.ecidadania.org
 
