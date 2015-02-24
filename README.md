@@ -1,5 +1,10 @@
 # ecidadania-ng
 
+[![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
+[![GitHub version](https://badge.fury.io/gh/django%2Fdjango.svg)](http://badge.fury.io/gh/django%2Fdjango)
+
+![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
+
 * Current version: 0.2.0 alpha
 * Django version: 1.7.4
 * Python version: 3.4.x
@@ -26,11 +31,8 @@ If you need any help feel free to contact oscar.carballal@clione.io
 =================eCIDADANIA-DROP5.0-INTEGRATION-Prelude===================
 =========================================================================
 
-[![GitHub version](https://badge.fury.io/gh/jjoc%2Fecidadania-ng.svg)](http://badge.fury.io/gh/jjoc%2Fecidadania-ng)
-[![GitHub version](https://badge.fury.io/gh/django%2Fdjango.svg)](http://badge.fury.io/gh/django%2Fdjango)
 
-![](http://ecidadania.org/uploads//spaces/logos/ecidadania.png)![](https://secure.gravatar.com/avatar/c3513d5274ea954547dedfeefd88df34?s=130)
-cidadania/ecidadania-ng
+
 
 
  
