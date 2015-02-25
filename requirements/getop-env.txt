@@ -1,0 +1,8 @@
+scipy
+numpy
+git-core
+aptitude
+python-pip
+python-dev
+python-oauth2
+build-dep python-imaging
